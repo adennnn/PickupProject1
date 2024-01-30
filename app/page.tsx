@@ -111,6 +111,7 @@ const majorUSCities = [
   'Baton Rouge'
 ];
 
+
 export default function Home() {
   const [userInput, setUserInput] = useState('');
   const [suggestions, setSuggestions] = useState([]);

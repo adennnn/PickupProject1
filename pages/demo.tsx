@@ -50,7 +50,7 @@ function EventCard() {
       <div>
         {/* Navigation Bar */}
         <nav className="flex justify-between p-4 bg-[#407BBF] text-white">
-        <Link href="/page" className="text-2xl font-bold">
+        <Link href="/" className="text-2xl font-bold">
             <span className="">Pickup</span>
           </Link>
    
@@ -92,7 +92,7 @@ function EventCard() {
 
         <div className="p-4">
           <h2 className="text-2xl font-semibold leading-tight">{gameData?.title}</h2>
-          <div className="text-xl mt-2">Date & Time</div>
+          <div className="text-xl mt-2">Jan 1st, 2024 12:00 AM</div>
           <div className="flex items-center text-lg mt-2">
             <p className="leading-tight">📍 {gameData?.location}</p>
           </div>
