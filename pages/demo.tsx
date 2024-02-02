@@ -2,7 +2,9 @@ import React, { useEffect, useState, Fragment } from 'react'; // Fixed the impor
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { Dialog, Transition } from '@headlessui/react';
-import { CheckIcon } from '@heroicons/react/24/outline';
+import { CheckIcon } from '@heroicons/react/solid';
+
+
 
 function EventCard() {
   const [gameData, setGameData] = useState(null);
